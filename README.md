@@ -22,12 +22,11 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 Create a fork of this repository to push your code to.
 
 Your aim is to create a very simple visualizer and editor for nested objects,
-like the one we put in the `data.obj` of the main instance (check in `src/App.vue`).
-Your code should be generic, so that if we change the input object, it still works.
+like the one we put in the `data.obj` of the main instance.
 
 Your missions:
-1. Visualize the object clearly
-2. Allow edition of values (bonus: avoid mutating the props directly!)
-3. Allow edition of keys
+1. Visualize the object clearly, like in the console or vue dev-tools
+2. Allow edition of property values (bonus: avoid mutating the props directly!)
+3. Allow edition of property names
 
 Timing: 1h
